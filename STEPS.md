@@ -75,4 +75,28 @@ PS C:\Users\Knile\Lone Coding Projects\Class Projects\GitAssignment> git commit 
 
 PS C:\Users\Knile\Lone Coding Projects\Class Projects\GitAssignment> git push   
 
+PS C:\Users\Knile\Lone Coding Projects\Class Projects\GitAssignment> git add .
+
+PS C:\Users\Knile\Lone Coding Projects\Class Projects\GitAssignment> git commit -m "9. cleaned up STEPS"                
+
+PS C:\Users\Knile\Lone Coding Projects\Class Projects\GitAssignment> git push 
+
+PS C:\Users\Knile\Lone Coding Projects\Class Projects\GitAssignment> git switch main
+Switched to branch 'main'
+
+PS C:\Users\Knile\Lone Coding Projects\Class Projects\GitAssignment> git add .
+
+PS C:\Users\Knile\Lone Coding Projects\Class Projects\GitAssignment> git commit -m "10. added style to title for main" 
+
+PS C:\Users\Knile\Lone Coding Projects\Class Projects\GitAssignment> git push       
+
+PS C:\Users\Knile\Lone Coding Projects\Class Projects\GitAssignment> git switch bugfix
+Switched to branch 'bugfix'
+
+PS C:\Users\Knile\Lone Coding Projects\Class Projects\GitAssignment> git merge bugfix-experimental
+Merge made by the 'ort' strategy.
+ STEPS.md | 78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 78 insertions(+)
+ create mode 100644 STEPS.md
+ 
 
