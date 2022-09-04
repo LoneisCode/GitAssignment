@@ -98,5 +98,29 @@ Merge made by the 'ort' strategy.
  STEPS.md | 78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
  1 file changed, 78 insertions(+)
  create mode 100644 STEPS.md
- 
 
+PS C:\Users\Knile\Lone Coding Projects\Class Projects\GitAssignment> git add .
+
+**ACTUAL 12**
+PS C:\Users\Knile\Lone Coding Projects\Class Projects\GitAssignment> git commit -m "11. Merger from experimental"
+[bugfix c1068d7] 11. Merger from experimental
+ 1 file changed, 24 insertions(+)
+
+PS C:\Users\Knile\Lone Coding Projects\Class Projects\GitAssignment> git push
+
+PS C:\Users\Knile\Lone Coding Projects\Class Projects\GitAssignment> git switch main
+Switched to branch 'main'
+
+PS C:\Users\Knile\Lone Coding Projects\Class Projects\GitAssignment> git merge bugfix
+Auto-merging README.md
+Merge made by the 'ort' strategy.
+ README.md |   4 ++-
+ STEPS.md  | 102 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 105 insertions(+), 1 deletion(-)
+ create mode 100644 STEPS.md
+ 
+ git add .
+ 
+ git commit -m "14. Done"
+
+ git push
